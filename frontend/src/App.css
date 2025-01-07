@@ -1,0 +1,48 @@
+
+
+
+.bgPic {
+  pointer-events: none !important;
+  width: 100%;
+}
+
+.btnCurve{
+border-radius: 0px 0px 45px 0px !important;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Changes the icon color to black */
+  filter: none; /* Removes any default filter applied to the icons */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: darkgray; /* Optional: Add a hover effect */
+}
+
+.carousel-item video + .carousel-control-prev-icon,
+.carousel-item video + .carousel-control-next-icon {
+  display: none !important;
+}
+
+
+.opaci{
+  opacity:0.6 !important;
+  cursor: pointer;
+}
+.opac{
+  cursor:pointer !important;
+}
+
+body {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
